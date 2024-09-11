@@ -1,0 +1,10 @@
+﻿header {
+    padding: 25px
+}
+
+#websiteLogo {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    resize: none;
+}
