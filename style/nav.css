@@ -1,10 +1,37 @@
-﻿header {
-    padding: 25px
-}
-
-#websiteLogo {
+﻿#websiteLogo {
     display: flex;
     max-width: 100%;
     height: auto;
     resize: none;
+    justify-content: start;
+    float: left;
+    vertical-align: middle;
+}
+
+#navBar {
+    display: flex;
+    color: white;
+    justify-content: end;
+    float: right;
+    font-size: 1.5rem;
+}
+
+#navBar a {
+    color: white;
+    text-decoration: none;
+}
+
+#loginBtn {
+    border: white solid 3px;
+    border-radius: 0.5rem;
+}
+
+#loginBtn:hover {
+    background-color: white;
+}
+
+#loginBtn:hover a {
+    background-color: white;
+    color: transparent;
+    mix-blend-mode: lighten;
 }

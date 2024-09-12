@@ -5,10 +5,37 @@
     <title>CEREMONY®</title>
     <link href="style/generic.css" type="text/css" rel="stylesheet">
     <link href="style/nav.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header class="container-fluid">
-    <img width="5%" length="auto" src="img/logo.png" alt="website logo" id="websiteLogo"/>
+<header class="container-fluid p-4">
+    <div>
+        <img width="2%" length="auto" src="img/logo.png" alt="website logo" id="websiteLogo"/>
+    </div>
+
+    <div>
+        <span>
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav align-vertical" id="navBar">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link active" aria-current="page" href="#">home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link" href="#">shop</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link" href="#">community</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                    <li class="nav-item ms-3 py-1 px-2" id="loginBtn">
+                        <a class="nav-link" href="#">LOG IN</a>
+                    </li>
+                </ul>
+            </nav>
+        </span>
+    </div>
 </header>
 </body>
 </html>
