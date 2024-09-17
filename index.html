@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CEREMONY®</title>
+    <title>CEREMONY® - HOME</title>
+    <link href="style/home.css" type="text/css" rel="stylesheet">
     <link href="style/generic.css" type="text/css" rel="stylesheet">
-    <link href="style/nav.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/img/logo.png">
     <link href="css/bootstrap-grid.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header class="container-fluid p-4">
+<header class="container-fluid align-items-center justify-content-center p-4">
     <div>
-        <img width="2%" length="auto" src="img/logo.png" alt="website logo" id="websiteLogo"/>
+        <a href="https://soundcloud.com/ceremonyofsin">
+            <img width="2%" length="auto" src="img/logo.png" alt="website logo" id="websiteLogo"/>
+        </a>
     </div>
 
     <div>
@@ -18,24 +21,29 @@
             <nav class="navbar navbar-expand-lg">
                 <ul class="navbar-nav align-vertical" id="navBar">
                     <li class="nav-item px-2 py-2">
-                        <a class="nav-link active" aria-current="page" href="#">home</a>
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item px-2 py-2">
-                        <a class="nav-link" href="#">shop</a>
+                        <a class="nav-link" href="#">SHOP</a>
                     </li>
                     <li class="nav-item px-2 py-2">
-                        <a class="nav-link" href="#">community</a>
+                        <a class="nav-link" href="#">COMMUNITY</a>
                     </li>
-                    <li class="nav-item px-2 py-2">
-                        <a class="nav-link" href="#">contact</a>
+                    <li class="nav-item ps-2 pe-1 py-2">
+                        <a class="nav-link" href="#">CONTACT</a>
                     </li>
                     <li class="nav-item ms-3 py-1 px-2" id="loginBtn">
-                        <a class="nav-link" href="#">LOG IN</a>
+                        <a class="nav-link" href="#">LOGIN</a>
                     </li>
                 </ul>
             </nav>
         </span>
     </div>
 </header>
+
+    <div class="d-flex container-fluid flex-column justify-content-center align-items-center" id="mainTitle">
+        <h1 class="py-1 text-center">WE ARE CEREMONY&#xAE</h1>
+        <p class="py-1 text-center">Our website is currently <span id="wipIndicator">WORK-IN-PROGRESS</span>, visit us again soon. &#x1F90D</p>
+    </div>
 </body>
 </html>

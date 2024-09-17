@@ -1,4 +1,6 @@
-﻿#websiteLogo {
+﻿@import url('fonts.css');
+
+#websiteLogo {
     display: flex;
     max-width: 100%;
     height: auto;
@@ -19,11 +21,13 @@
 #navBar a {
     color: white;
     text-decoration: none;
+    font-family: "JetBrains Mono Bold", monospace;
 }
 
 #loginBtn {
     border: white solid 3px;
     border-radius: 0.5rem;
+    font-weight: bold;
 }
 
 #loginBtn:hover {
@@ -31,7 +35,6 @@
 }
 
 #loginBtn:hover a {
-    background-color: white;
-    color: transparent;
-    mix-blend-mode: lighten;
+    color: black;
+    mix-blend-mode: multiply;
 }
