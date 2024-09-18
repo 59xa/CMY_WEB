@@ -70,3 +70,15 @@
     background-color: transparent;
     border: none;
 }
+
+.localeBtn {
+    width: 45px;
+    height: 20px;
+    padding-bottom: 0.5rem !important;
+    padding-top: 0.2rem !important;
+    margin: 0 !important;
+    background-color: transparent;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+}
