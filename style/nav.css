@@ -22,7 +22,6 @@
     color: white;
     text-decoration: none;
     font-family: "JetBrains Mono Bold", monospace;
-    transition: transform .2s;
 }
 
 #navBar a:hover {
@@ -38,7 +37,6 @@
     );
     color: transparent;
     -webkit-background-clip: text;
-    transform: scale(1.2);
 }
 
 #loginBtn {
@@ -54,4 +52,21 @@
 #loginBtn:hover a {
     color: black;
     mix-blend-mode: multiply;
+}
+
+#localeSelector option, select {
+    font-family: 'JetBrains Mono Bold', monospace;
+    background-color: transparent;
+    border: none;
+}
+
+#localeSelector {
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+#localeSelector option {
+    color: black;
+    background-color: transparent;
+    border: none;
 }
