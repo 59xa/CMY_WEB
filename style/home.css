@@ -6,6 +6,7 @@
 }
 
 html {
+    background: #000;
     background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0)), url('/img/home-bg.gif') !important;
     background-size: auto 50%, cover !important;
     background-repeat: no-repeat;
